@@ -151,8 +151,8 @@ main > section > h3 {
 .Card {
     box-shadow: rgba(106, 195, 255, 0.281) 0 0 20px;
 
-    margin: 1vh;
-    border-radius: 1em 1em 3em 3em;
+    margin: 0.5vh;
+    border-radius: 1em 1em 2em 2em;
 
     background: var(--blue-gradient);
 
