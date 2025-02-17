@@ -10,6 +10,12 @@ body {
     --small-text-size: .75vw;
     --mini-text-size: 0.5vw;
 
+    --big-text-size-phone: 8vw;
+    --medium-big-text-size-phone: 6vw;
+    --medium-text-size-phone: 5vw;
+    --small-text-size-phone: 3vw;
+    --mini-text-size-phone: 2vw;
+
     color: white;
     background: var(--dark-gradient);
     font-family: Andale Mono, AndaleMono, monospace;
@@ -144,7 +150,7 @@ main > section > h3 {
     align-items: center;
 
     width: 80%;
-    height: 35vh;
+    height: 27em;
     transition: 1s;
 }
 
@@ -173,6 +179,10 @@ main > section > h3 {
 
 .CardInfo > h2 {
     font-size: var(--medium-text-size);
+}
+
+.CardInfo > p {
+    font-size: var(--small-text-size);
 }
 
 
@@ -218,14 +228,30 @@ main > section > h3 {
 /*----------------- MEDIA QUERIES ---*/
 
 @media (aspect-ratio < 1) {
+    header h1 {
+        font-size: var(--big-text-size-phone);
+    }
+
+    nav a {
+        font-size: var(--medium-text-size-phone);
+    }
+
+
     nav > ul { 
         flex-direction: column;
         width: 100%;
     }
 
+    main > h2 {
+        font-size: var(--medium-big-text-size-phone);
+    }
 
     main section {
         width: 100%;
+    }
+
+    main > section > h3 {
+        font-size: var(--medium-big-text-size-phone);
     }
 
     .Card {
@@ -242,6 +268,18 @@ main > section > h3 {
         width: 100%;
     }
 
+    .CardInfo > h1 {
+        font-size: var(--medium-big-text-size-phone);
+    }
+    
+    .CardInfo > h2 {
+        font-size: var(--medium-text-size-phone);
+    }
+    
+    .CardInfo > p {
+        font-size: var(--small-text-size-phone);
+    }
+
     .CardMedia {
         width: 100%;
     }
@@ -249,5 +287,9 @@ main > section > h3 {
     .CardMedia img {
         width: 100%;
         border-radius: 1em 1em 1em 1em;
+    }
+
+    .Button {
+        font-size: var(--small-text-size-phone);
     }
 }
