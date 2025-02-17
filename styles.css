@@ -175,6 +175,33 @@ main > section > h3 {
     height: 100%;
 }
 
+.Card-Profile {
+    box-shadow: rgba(106, 195, 255, 0.281) 0 0 20px;
+
+    margin: 0.5vh;
+    border-radius: 1em 1em 2em 2em;
+
+    background: var(--blue-gradient);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    height: 50em;
+    transition: 1s;
+}
+
+.Card-Profile:hover {
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+.Card-Profile > div {
+    height: 100%;
+}
+
 .CardInfo {
     width: 40%;
     padding: 1em;
@@ -206,6 +233,7 @@ main > section > h3 {
     justify-content: center;
     align-items: center;
 }
+
 
 .CardMedia img {
     box-shadow: rgba(0,0,0,0.8) 0 0 10px;
