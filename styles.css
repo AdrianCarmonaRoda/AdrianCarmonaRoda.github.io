@@ -4,11 +4,11 @@ body {
     --blue-gradient: linear-gradient(90deg, rgb(22, 24, 29) 0%, rgb(40, 54, 75) 35%, rgba(72, 128, 161, 0.788) 100%);
     --section-gradient: linear-gradient(0deg, rgb(25, 26, 29) 0%,  rgba(68, 85, 116, 0.788) 10%);
 
-    --big-text-size: 3em;
-    --medium-big-text-size: 2.5em;
-    --medium-text-size: 1.5em;
-    --small-text-size: 1em;
-    --mini-text-size: 0.75em;
+    --big-text-size: 4vh;
+    --medium-big-text-size: 3vh;
+    --medium-text-size: 2vh;
+    --small-text-size: 1vh;
+    --mini-text-size: 0.75vh;
 
     color: white;
     background: var(--dark-gradient);
@@ -133,7 +133,7 @@ main > section > h3 {
 .Card {
     box-shadow: rgba(106, 195, 255, 0.281) 0 0 20px;
 
-    margin: .2em;
+    margin: 1vh;
     border-radius: 1em 1em 3em 3em;
 
     background: var(--blue-gradient);
