@@ -195,6 +195,7 @@ main > section > h3 {
 
 .CardInfo > p {
     font-size: var(--small-text-size);
+    padding: 0.2vw;
 }
 
 
@@ -229,12 +230,13 @@ main > section > h3 {
     display: block; /* Hace que el enlace ocupe todo el espacio del `li` */
     padding: 0.5vh 1vh; /* Aumenta el área clickeable */
     text-decoration: none;
-    background-color: rgb(31, 31, 31); /* Color de fondo para visualizar */
+    background-color: rgb(50, 51, 53); /* Color de fondo para visualizar */
     color: white;
+    border-radius: 1em;
 }
 
 .Button:hover {
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(75, 77, 80);
 }
 
 /*----------------- MEDIA QUERIES ---*/
