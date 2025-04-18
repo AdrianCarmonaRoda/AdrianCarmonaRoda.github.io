@@ -274,6 +274,13 @@ main > section > h3 {
     width: 100%;
 }
 
+.division {
+    margin: auto;
+    height: 0.1rem;
+    width: 80%;
+    background-color: rgba(240, 255, 255, 0.623);
+}
+
 /*----------------- CARRUSEL ---*/
 .carousel {
     position: relative;
