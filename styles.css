@@ -7,8 +7,8 @@ body {
     --big-text-size: 2.5vw;
     --medium-big-text-size: 1.0vw;
     --medium-text-size: 0.75vw;
-    --small-text-size: .5vw;
-    --mini-text-size: 0.25vw;
+    --small-text-size: .6vw;
+    --mini-text-size: 0.3vw;
 
     --big-text-size-phone: 8vw;
     --medium-big-text-size-phone: 6.5vw;
@@ -164,7 +164,7 @@ main > section > h3 {
     align-items: center;
 
     width: 90%;
-    height: 20em;
+    height: 25em;
     transition: 1s;
 }
 
@@ -257,10 +257,10 @@ main > section > h3 {
 .Button {
     margin: 0.5em;
     font-size: var(--small-text-size);
-    display: block; /* Hace que el enlace ocupe todo el espacio del `li` */
-    padding: 0.5vh 1vh; /* Aumenta el área clickeable */
+    display: block;
+    padding: 0.5vh 1vh;
     text-decoration: none;
-    background-color: rgb(50, 51, 53); /* Color de fondo para visualizar */
+    background-color: rgb(50, 51, 53); 
     color: white;
     border-radius: 1em;
 }
@@ -270,6 +270,10 @@ main > section > h3 {
 }
 
 /*----------------- Standard Page ---*/
+.ContentBody {
+    padding: 2em;
+}
+
 .ContentBody > img {
     width: 100%;
 }
@@ -279,6 +283,31 @@ main > section > h3 {
     height: 0.1rem;
     width: 80%;
     background-color: rgba(240, 255, 255, 0.623);
+}
+
+a {
+    color: antiquewhite;
+    font-weight: 1200;
+}
+
+/*----------------- EMAIL ---*/
+.ContactForm {
+    
+}
+
+.ContactItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 2em;
+}
+
+.ContactItem > img {
+    max-height: 5vh;
+    width: auto;
+    object-fit: contain;
 }
 
 /*----------------- CARRUSEL ---*/
@@ -329,6 +358,13 @@ main > section > h3 {
 
 .carousel-button.next {
     right: 0.5rem;
+}
+
+/*Profile Pic*/
+.ProfilePic {
+    max-height: 40vh;
+    width: auto;
+    object-fit: contain;
 }
 
 /*----------------- MEDIA QUERIES ---*/
